@@ -1,13 +1,29 @@
 /*////////////// Fonts //////////////*/
-
+/*@import url(../fonts/Baskerville.ttc);*/
+@font-face {
+	font-family: "Baskerville";
+	src: url(../fonts/Baskerville.ttc);
+}
 /* link the web font used for the level 1 heading here */
 
+h1 {
+	font-family: "Baskerville",serif;
+	font-size: 65px;
+	color: rgb(152,173,166);
+	margin-bottom: 15px;
+}
+
+.line {
+	border-style:solid;
+	border-width: thin;
+	border-color: rgb(204,204,204);
+}
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif;
+	font-family: 'Times New Roman', Verdana;
 }
 
 .wrapper {
@@ -19,5 +35,49 @@ body {
 
 .footer {
 	float: right;
+	font-family: "Times New Roman", Verdana, serif;
+	font-size: 15px;
 }
 /* Write all remaining styles here */
+
+h2 {
+	font-family: "Times New Roman", serif;
+	font-size: 30px;
+	color: rgb(111,127,122);
+}
+
+h1:hover {
+	color: rgb(111,127,122);
+}
+
+.necklace {
+	border-style: solid;3
+	border-width: 5px;
+	border-color: rgb(111,127,122);
+	padding: 1px;
+	margin-top: 5px;
+}
+
+.bergdorf {
+	border-style: solid;3
+	border-width: 5px;
+	border-color: rgb(152,173,166);
+}
+
+.nmai {
+	border-style: solid;3
+	border-width: 5px;
+	border-color: rgb(152,173,166);
+}
+
+.sedona {
+	border-style: solid;3
+	border-width: 5px;
+	border-color: rgb(152,173,166);
+}
+
+.times {
+	border-style: solid;3
+	border-width: 5px;
+	border-color: rgb(152,173,166);
+}
