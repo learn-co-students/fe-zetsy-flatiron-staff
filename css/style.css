@@ -1,16 +1,17 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
-
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Montserrat', sans-serif;
+	margin: 20px;
+	color: rgb(98, 114, 109);
 }
 
 .wrapper {
+	display: inline-block;
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
@@ -18,3 +19,18 @@ body {
 }
 
 /* Write all remaining styles here */
+/*///columns*/
+.col-1 {
+	width: auto;
+	float: left;
+}
+
+/*layout*/
+
+h1 {
+	color: rgb(150,175,168);
+}
+
+footer {
+	float: right;
+}
